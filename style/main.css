@@ -35,7 +35,7 @@ header .logo{
 header nav a{
     text-decoration: none;
     color:#AAA;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 header nav a:hover{
@@ -102,4 +102,33 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+    cursor: pointer;
+}
+
+.carrousel-filmes{
+    margin-top: 10px;
+}
+
+footer .social-links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 75px;
+}
+
+.social-links i{ 
+    margin-bottom: 2%;
+    margin-left: 18px;
+    font-size: 25px;
+}
+
+.copyright{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.credits{
+    margin-top: 5px;
+    margin-left: 80px;
 }
